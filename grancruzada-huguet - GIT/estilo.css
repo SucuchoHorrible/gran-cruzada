@@ -1,0 +1,157 @@
+/*le puse un fondo gris para no quedarme ciego con el resplandor blanco cada vez que cambio de pestaña...peeeero lo deje porque me parecio bonito*/
+* {background-color: rgb(215, 215, 215);}
+
+/*nav para las paginas*/
+.navegacion{
+    display: block;
+    margin: 25px 0px 0px 25px;
+    border: 25px 25px 25px 25px;
+}
+
+.navegacion a{
+margin-right: 15px;
+}
+
+/*header-fondo*/
+/*cuando se me ocurra como, personalizar el titulo de alguna forma*/
+.encabezado{
+    font-size: 55px;
+    font-weight:bolder;
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+
+.fondo {
+    margin:0% 25% 0% 25%;
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*navegacion del index*/
+.lista {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type:none;
+    padding: 0px 0px 0px 115px ;
+}
+
+.subtitulo{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.icono {
+    align-items: flex-start;
+    border-style:groove;
+    border-color: black;
+    border-radius: 50%;
+}
+
+.titulo__a {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 85px;
+    width: 85px;
+    padding: 0 0px 0 68%;
+}
+
+.titulo__b {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 85px;
+    width: 85px;
+    position:relative;
+    padding: 0 215px 0 215px;
+}
+
+.titulo__c {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 85px;
+    width: 85px;
+    padding:0px 0px 0px 0px ;
+}
+
+/*pagina 2 - las cruzadas*/
+.cruzadas{
+    width: 900px;
+    margin-left: 2%;
+}
+
+.cruzadas h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cruzadas h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.cruzadas p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*eventualmente colocar los aside... bueno...aside*/
+
+/*pagina 3 - grandes maestros*/
+#aver {
+    display: grid;
+    margin: 3% 15% 0% 15%;
+    grid-template-columns: repeat(6,200px);
+    grid-column-gap: 5px;
+    grid-template-rows: repeat(4,200px);
+    grid-row-gap: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    list-style-type:none;
+    text-align: center;
+}
+
+/*pagina 4 - pertrechos*/
+.equipo{
+    list-style-type:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*pagina 5 - formulario...cuando haya algo que cambiar*/
+.formulario{
+    margin: 50px 50px 50px 50px;
+    padding: 15spx 50px 50px 50px;
+}
+
+.divs{
+    border: 7px 7px 7px 7px;
+    padding: 7px 7px 7px 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*footer*/
+.footer {
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    margin:75px 25% 0% 25%;
+    width: 900px;
+    height: 100px; 
+}
+
+.footer__h {
+    text-align: center;
+    font-style: italic;
+}
+
+.footer__p {
+    text-align: center;
+}

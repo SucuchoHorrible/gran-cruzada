@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="../recursos/incono-pagina.png" width="16">
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <nav class="navegacion"><!--iconos/barra de navegacion-->
+        <a href="../index.html"><img class="icono"src="../recursos/index/cruz-home.jpg" alt="inicio" height="40"></a>
+        <a href="../paginas/cruzadas.html"><img  class="icono" src="../recursos/index/urbano-segundo.jpg" alt="cruzadas" height="40"></a>
+        <a href="../paginas/grandes-maestros.html"><img  class="icono" src="../recursos/index/templarios-escudo.jpg" alt="maestros" height="40"></a>
+        <a href="../paginas/pertrechos.html"><img  class="icono" src="../recursos/index/alforja.jpg" alt="pertrechos" height="40"></a>
+    </nav>
+    <header>
+        <h1 class="encabezado">Deus Vult</h1>
+        <p class="subtitulo">La decima cruzada podria llegar en cualquier momento, ¿responderas al llamado?</p>
+    </header>
+    <section>
+        <article class="formulario">
+            <form>
+                <h2>Formulario</h2>
+                <div class="divs">
+                    <label for="nombre"><input type="text" name="nombre" placeholder="Nombre"></label>
+                </div>
+                <div class="divs">
+                    <label for="apellido"><input type="text" name="apellido" placeholder="Apellido"></label>
+                </div>
+                <div class="divs">
+                    <label for="email"><input type="email" name="email" placeholder="Correo" id="correo" required></label>
+                </div>     
+                <div class="divs">
+                    <label for="edad"><input type="text" name="edad" placeholder="Edad" required></label>
+                </div>
+                <div class="divs"></div>
+                    <p class="divs">Objetivos</p>
+                    <label for="fe"><input id="fe" type="checkbox" name="objetivos" value="fe">Fe</label>
+                    <label for="conocimiento"><input id="conocimiento" type="checkbox" name="objetivos" value="conocimiento">Conocimiento</label>
+                    <label for="fuerza"><input id="fuerza" type="checkbox" name="objetivos" value="fuerza">Fuerza</label>
+                    <label for="tierras"><input id="tierras" type="checkbox" name="objetivos" value="tierras">Tierras</label>
+                    <label for="fama"><input id="fama" type="checkbox" name="objetivos" value="fama">Fama</label>
+                <div class="divs"></div>
+                    <p  class="divs">Cruzada preferida</p>
+                    <label for="primera"><input id="tierra-santa" type="radio" name="cruzadas" value="tierra-santa">Primera Cruzada</label>
+                    <label for="segunda"><input id="tierra-santa" type="radio" name="cruzadas" value="tierra-santa">Segunda Cruzada</label>
+                    <label for="tercera"><input id="tierra-santa" type="radio" name="cruzadas" value="tierra-santa">Tercera Cruzada</label>
+                    <label for="cuarta"><input id="tierra-santa" type="radio" name="cruzadas" value="tierra-santa">Cuarta Cruzada</label>
+                    <label for="menores"><input id="tierra-santa" type="radio" name="cruzadas" value="tierra-santa">Cruzadas Menores</label>
+                    <label for="europeas"><input id="europea" type="radio" name="cruzadas" value="europea">Cruzadas Europeas</label>
+                <div class="divs">
+                    <textarea name="comentario" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
+                </div>
+                <div class="divs">
+                    <button type="submit">Unirse</button>
+                    <button type="reset">Borrar datos</button>
+                </div>
+            </form>
+        </article>
+    </section>
+    <aside>
+        <p>Videos Informativos</p>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/5j-MBJsNjeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/sX7baeiUj2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </aside>
+    <footer class="footer">
+        <h4 class="footer__h">Non nobis, Domine, non nobis. Sed Nomini Tuo Da Gloriam</h4>
+        <p class="footer__p">Unete a la Cruzada,¡Deus Vult!</a></p>
+    </footer>
+</body>
+</html>
